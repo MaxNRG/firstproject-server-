@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Some site</title>
+	<link rel="stylesheet" href="css/vegas.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="profileparts/parts.css">
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+<div id="container">
+	<header>
+	<div class="headMenu">
+		<ul>
+			<li class="main"><a href="#">MAIN</a></li>
+			<li>
+				<a href="#">STORE</a>
+				<ul class="dropdown">
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#"></a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">PROFILE</a>
+				<ul class="dropdown">
+					<li class="createProfile"><a href="#">Create profile</a></li>
+					<li class="logInProfile"><a href="#">Log in</a></li>
+					<li class="profilePage"><a href="#">Profile page</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!-- profile block -->
+	<div class="profileBlock">
+		<form action="#">
+			<label for="profile">
+				<input type="text" placeholder="Your name" id="userName">
+				<input type="text" placeholder="Your e-mail" id="userEmail">
+				<input type="password" placeholder="Password" id="userPassword">
+				<input type="text" placeholder="Age" id="userAge">
+				<input type="text" placeholder="Weight" id="userWeight">
+				<input type="text" placeholder="Height" id="userHeight">
+				<input type="button" value="Submit" id="profileButton">
+			</label>
+		</form>
+	</div>
+	<!-- profile block -->
+	<!-- log in block -->
+	<div class="logInBlock">
+		<form action="#">
+			<label for="logIn">
+				<input type="text" placeholder="Your e-mail" id="logInEmail">
+				<input type="password" placeholder="Password" id="logInPassword">
+				<input type="button" value="Submit" id="logInButton">
+			</label>
+		</form>
+	</div>
+	<!-- log in block -->
+</header>
+	<div class="uploadContainer">
+		<div class="uploadColumn"></div>
+		<div class="uploadRow"></div>
+	</div>	
+</div>	
+
+	<script src="js/vegas.js"></script>
+	<script src="js/main.js"></script>
+	<script src="profileparts/parts.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+/*PROFILE PAGE STYLES START*/
+
+/*profile menu*/
+.profileMenu{
+	width: 10.416667%;/*100px*/
+	display: block;
+	height: 450px;
+	margin-top: 10px;
+	background: rgba(220, 220, 220, 0.3);
+}
+.profileMenu li{
+	width: 16,666667%;/*160px*/
+	text-align: center;
+	list-style: none;
+}
+.profileMenu a{
+	display: inline-block;
+	margin-top: 5px;
+	text-decoration: none;
+}
+/*profile menu*/
+
+/*PROFILE PAGE STYLES ENDS*/
